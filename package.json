@@ -1,0 +1,76 @@
+{
+  "name": "npm-react-popup-info-modal",
+  "version": "0.2.6",
+  "main": "dist/index.js",
+  "private": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "description": "An user-friendly, lightweight and customisable pop up which display your message in a modal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemalkazanc/HRnet_P14_info-modal-component_2023.git"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "pop-up",
+    "component",
+    "message",
+    "information",
+    "modal-info",
+    "modal-component",
+    "info-modal",
+    "info-modal-component",
+    "dialog"
+  ],
+  "author": "Kemal Kazanc",
+  "dependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "clean": "rimraf dist",
+    "build": "npm run clean && cross-env NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "cross-env": "^7.0.3",
+    "prettier": "3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "prop-types": "^15.8.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kemalkazanc/HRnet_P14_info-modal-component_2023/issues"
+  },
+  "homepage": "https://github.com/kemalkazanc/HRnet_P14_info-modal-component_2023#readme"
+}
