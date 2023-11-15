@@ -14,15 +14,15 @@ An user-friendly, lightweight and customizable pop up which display your message
 
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
 
-    $ npm install --save info-modal-component
-    $ yarn add info-modal-component
+    $ npm i npm-react-popup-info-modal
+    $ yarn add npm-react-popup-info-modal
 
 ### Step 2 (required) :
 
 To import the component, add :
 
 ```javascript
-import { InfoModal } from 'info-modal-component'
+import { InfoModal } from 'npm-react-popup-info-modal'
 ```
 
 ### Step 3 (required) :
